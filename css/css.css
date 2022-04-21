@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+/***************************************************************************
+                               CSS BEGINS
+****************************************************************************/
+
 header{
     background-color: #ceb5a7;
 }
@@ -54,6 +58,7 @@ header{
 nav{
     background-color: #ceb5a7;
     font-family: poppins light;
+    text-align: center;
 }
 
 a{
@@ -71,6 +76,14 @@ a:visited{
 a:hover{
     color: black;
 }
+
+a{
+    padding:25px;
+}
+li{
+    display: inline;
+}
+
 h1{
     font-family: fahkwang;
     font-size: 32px;
@@ -80,4 +93,21 @@ h2{
     color: #ceb5a7;
     font-family: poppins light;
     font-size: 25px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 20px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer{
+    background-color: #eaeae1;
+    color: #ceb5a7;
+    text-align: center;
 }
