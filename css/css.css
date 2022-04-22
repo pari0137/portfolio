@@ -89,18 +89,24 @@ h1{
     font-size: 32px;
 }
 
+.mom{
+    max-width:5%;
+    
+}
+
 h2{
     color: #ceb5a7;
     font-family: poppins light;
     font-size: 25px;
 }
 
-.container{
+
+/*.container{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 20px;
-}
+} */
 
 p{
     font-family: 'Josefin Sans', sans-serif;
