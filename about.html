@@ -10,21 +10,34 @@
 
 <body>
     <nav>
+        <div class="container">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><img src="images/me.JPG" id="logo" alt="Kam MEDIA Logo"></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+    </div>
+
+    <div class="dropdown">
+        <div onclick="myFunction()" class="dropbtn"><img src="images/dropdown.png" alt="dropdown menu" id="dropimg"></div>
+        <div id="myDropdown" class="dropdown-content">
+            <a class="dd-link" href="index.html">home</a>
+            <a class="dd-link" href="about.html">about</a>
+            <a class="dd-link" href="contact.html">contact</a>
+            <a class="dd-link" href="services.html">services</a>
+        </div>
+    </div>
     </nav>
     <header>
         <h1>About Me</h1>
     </header>
     
     <main>
-    <div class="container">
-        <div class="me">
-            <img src="images/me.JPG" alt="image of me">
+    <div class="grid">
+        <div>
+            <img src="images/me.JPG" id="me" alt="image of me">
         </div>
         <span>
         <h2> Who Am I?</h2>
