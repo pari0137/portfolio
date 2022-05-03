@@ -215,10 +215,8 @@ h3{
     font-size: 25px; 
 }
 
-.mom{
+#mom{
     width: 100%;
-    position: absolute;
-
 }
 
 
@@ -227,7 +225,7 @@ h3{
     padding: 15px;
 }
 
-.container{
+.grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
