@@ -481,4 +481,27 @@ footer{
     .goal{
         font-size: 28px;
     }
+
+    .my-work{
+        font-size: 60px;
+        margin: 20px;
+    }
+
+    .photog{
+        font-size: 48px;
+        top: 540px;
+    }
+
+    .soc{
+        font-size: 48px;
+        top: 2090px;
+    }
+
+    #book-now1{
+        top: 740px;
+    }
+
+    #book-now2{
+        top: 2150px;
+    }
 }
