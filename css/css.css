@@ -240,6 +240,109 @@ h3{
     width:100%;
 }
 
+#contact{
+    width: 100%;
+}
+
+#social{
+    width: 100%;
+}
+
+#rye{
+    width: 100%;
+}
+
+.photog{
+    position:absolute;
+    padding-top: 125px;
+    padding-left: 130px;
+    color: black;
+    font-size: 35px;
+
+}
+
+.soc{
+    position: absolute;
+    color: black;
+    top: 670px;
+    left: 50px;
+}
+
+#book-now1{
+    height: auto;
+    width: 200px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ceb5a7;
+    color: #eaeae1;
+    position: absolute;
+    top: 310px;
+    left: 140px;
+}
+
+#book-now1:hover{
+    box-shadow: 0.2rem 0.2rem black;
+}
+
+#book-now2:hover{
+    box-shadow: 0.2rem 0.2rem black;
+}
+
+#book-now2{
+    height: auto;
+    width: 200px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ceb5a7;
+    color: #eaeae1;
+    position: absolute;
+    top: 720px;
+    left: 140px;
+}
+
+.reach-out{
+    position: absolute;
+    padding-top: 140px;
+    color: #eaeae1;
+}
+
+#fullname{
+    width: 100%;
+}
+
+#email{
+    width: 100%;
+}
+
+#message{
+    width: 100%;
+}
+
+.text-padding{
+    padding: 3px;
+    margin: 10px;
+    color: #ceb5a7;
+}
+
+.message-padding{
+    margin: 50px;
+}
+
+.send-button{
+    margin-left: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ceb5a7;
+    padding: 5px;
+    color: #eaeae1;
+}
+
+.thank-you{
+    margin: 50px;
+}
+
 .form{
     padding: 15px;
 }

@@ -24,41 +24,47 @@
         <div onclick="myFunction()" class="dropbtn"><img src="images/dropdown.png" alt="dropdown menu" id="dropimg"></div>
         <div id="myDropdown" class="dropdown-content">
             <a class="dd-link" href="index.html">home</a>
+            <a class="dd-link" href="services.html">services</a>
             <a class="dd-link" href="about.html">about</a>
             <a class="dd-link" href="contact.html">contact</a>
-            <a class="dd-link" href="services.html">services</a>
         </div>
     </div>
     </nav>
     <header>
-        <h1>REACH OUT NOW FOR MORE INFORMATION OR TO BOOK YOUR CONSULTATION</h1>
+        <h1 class="reach-out">REACH OUT NOW FOR MORE INFORMATION OR TO BOOK YOUR CONSULTATION</h1>
+        <div>
+            <img src="images/contact.jpg" id="contact" alt="hand drawing">
+        </div>
     </header>
     
     <main>
 
         <span class="form">
-            <form action="services.html" method="post">
-
-                <fieldset>
-                <p>
-                <label for="fullname">Name</label>
-                <input id="fullname" type="text">
-                </p>
-                <p>
-                <label for="email">Email</label>
-                <input id="email" type="email">
-                </p>
-                <p>
-                <label for="message">Your Message</label>
-                <input id="message" type="text">
-                </p>
-            </fieldset>
-            
-            <input type="button" value="Send">
-
+            <form action="send">
+                <div class="message-padding">
+                    <p class="text-padding">
+                        <label for="fullname" class="name">name</label>
+                    </p>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="message-padding">
+                    <p class="text-padding">
+                        <label for="email" class="email">email</label>
+                    </p>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="message-padding">
+                    <p class="text-padding">
+                        <label for="message" class="message">message</label>
+                    </p>
+                    <textarea name="message" id="message" class="message-box"></textarea>
+                </div>
+                <div class="button-padding">
+                    <button class="send-button">send</button>
+                </div>
             </form>
         </span>
-        <h2>Thank you for your time!</h2>
+        <h2 class="thank-you">Thank you for your time!</h2>
         </main>
     
     <footer>
