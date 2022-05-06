@@ -67,6 +67,9 @@ nav{
 #logo{
     visibility: visible;
     max-width: 70px;
+    position: absolute;
+    top: 8px;
+    left: 210px;
 }
 
 /* Dropdown Button */
@@ -78,16 +81,11 @@ nav{
     cursor: pointer;
   }
   
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position: relative;
-    display: inline-block;
-    float: left;
+    position: absolute;
+    top: 8px;
+    left: 8px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -300,6 +298,28 @@ h3{
     left: 140px;
 }
 
+#book-now3:hover{
+    box-shadow: 0.2rem 0.2rem black;
+}
+
+#book-now3{
+    height: auto;
+    width: 200px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ceb5a7;
+    color: #eaeae1;
+    margin: 20px;
+}
+
+.book-now{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
 .reach-out{
     position: absolute;
     padding-top: 140px;
@@ -364,6 +384,7 @@ footer{
     background-color: #eaeae1;
     color: #ceb5a7;
     text-align: center;
+    margin-top: 90px;
 }
 
 .footer{
@@ -445,6 +466,8 @@ footer{
 
     #logo{
         min-width:100px;
+        position:relative;
+        left: 0px;
     }
 
     #me{
@@ -503,5 +526,38 @@ footer{
 
     #book-now2{
         top: 2150px;
+    }
+
+    .reach-out{
+        font-size: 60px;
+        top: 90px;
+        margin: 20px;
+    }
+
+    .send-button{
+        width: 60px;
+        margin: 20px;
+        margin-left: 50px;
+    }
+
+    .send-button:hover{
+        box-shadow: black 0.2rem 0.2rem;
+    }
+
+    .form{
+        position: absolute;
+        top: 500px;
+        background-color: rgba(234, 234, 225, 0.3);
+        margin: 50px;
+        width: 500px;
+    }
+
+    .text-padding{
+        color:black;
+        font-size: 18px;
+    }
+
+    .message-padding{
+        height: 20px;
     }
 }
